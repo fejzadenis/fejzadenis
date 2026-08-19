@@ -1,11 +1,14 @@
 # Denis Fejza
 
-Software developer working at both ends of the stack: bare-metal systems in C++ and
-Java — kernels, compilers, CPU designs — and products people actually use, built with
-TypeScript, React and Flutter.
+Backend and full-stack engineer in Belgrade, open to new roles.
 
-Computer Engineering student at the School of Electrical Engineering, University of
-Belgrade.
+Three years shipping production platforms for clients — APIs, databases, payments,
+access control — alongside systems work at the other end of the stack: a RISC-V kernel,
+a compiler, a CPU in SystemVerilog. B.Sc. in Electrical Engineering and Computing from
+ETF Belgrade.
+
+**[fejzadenis.github.io](https://fejzadenis.github.io)** · open to backend and
+full-stack positions, Belgrade or remote
 
 ## Selected projects
 
