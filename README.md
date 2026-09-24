@@ -1,6 +1,6 @@
 # Denis Fejza
 
-Backend and full-stack engineer in Belgrade, open to new roles.
+Backend and full-stack engineer open to new roles.
 
 Three years shipping production platforms for clients — APIs, databases, payments,
 access control — alongside systems work at the other end of the stack: a RISC-V kernel,
