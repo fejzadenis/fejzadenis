@@ -1,36 +1,39 @@
 # Denis Fejza
 
-Backend and full-stack engineer open to new roles.
+Backend engineer in Belgrade. Node.js, TypeScript, Rust, Python, PostgreSQL.
 
-Three years shipping production platforms for clients — APIs, databases, payments,
-access control — alongside systems work at the other end of the stack: a RISC-V kernel,
-a compiler, a CPU in SystemVerilog. B.Sc. in Electrical Engineering and Computing from
-ETF Belgrade.
+3+ years of production work for EU and US clients: APIs and services, PostgreSQL data models, authentication and access control, Stripe billing, real-time data pipelines. Previously a Rust backend engineer on FUKU, an AI trading platform where an LLM agent executes DeFi trades. B.Sc. in Electrical Engineering and Computing (Computer Engineering and Informatics), ETF Belgrade.
 
-**[fejzadenis.github.io](https://fejzadenis.github.io)** · open to backend and
-full-stack positions, Belgrade or remote
+**[fejzadenis.github.io](https://fejzadenis.github.io)** · [LinkedIn](https://www.linkedin.com/in/denis-fejza/) · fejza.denis@gmail.com · looking for a full-time backend or full-stack role, remote or Belgrade
 
-## Selected projects
+## Production work (private code)
+
+| Project | What I built | Stack |
+| --- | --- | --- |
+| **FUKU** | Rust monorepo with about 22 services in production. Sole author of the real-time signal service (Redis stream of Hyperliquid perps activity, risk classification, Telegram fan-out, indicator packs) and of the Agent Commerce Protocol adapter that lets other AI agents buy trade execution. Worked on the agent tool layer exposing 113 trading functions to the LLM. | Rust, PostgreSQL, Redis, Solana, Hyperliquid |
+| **[DoorCall AI](https://doorcall-ai.vercel.app)** | Multi-tenant voice-AI receptionist SaaS for US garage-door companies, built solo. Tenant isolation with PostgreSQL row level security, calendar booking, idempotent Stripe webhooks. Live demo, no accounts needed. | Next.js, TypeScript, PostgreSQL, Supabase, Stripe |
+| **Client platforms** | Security audit and repairs of a live SvelteKit membership platform on Cloudflare (access control, admin roles, gated video, email deliverability). Query and caching work that cut page loads by about 40% on gradi.rs. | SvelteKit, Cloudflare Workers, Stripe, SQL |
+
+## Public code
 
 | Project | What it is | Stack |
 | --- | --- | --- |
-| **[riscv-bare-metal-kernel](https://github.com/fejzadenis/riscv-bare-metal-kernel)** | A multithreaded OS kernel written from scratch for RISC-V: threads, semaphores, a memory allocator and the user/supervisor boundary. No standard library, no host OS. | C++, RISC-V assembly |
-| **[mikrojava-compiler](https://github.com/fejzadenis/mikrojava-compiler)** | A complete compiler pipeline for a Java-like language — lexer, LALR(1) parser, semantic analysis against a symbol table, and bytecode generation for a stack VM. | Java, JFlex, CUP |
-| **[vlsi](https://github.com/fejzadenis/vlsi)** | The PicoComputer CPU in SystemVerilog: RTL design, UVM verification and FPGA-ready synthesis. | SystemVerilog, UVM |
-| **[zentrix-player](https://github.com/fejzadenis/zentrix-player)** | A cross-platform IPTV player for five platforms — EPG parsing, playlist management, offline caching, clean layered architecture. | Flutter, Dart |
-| **[inrooms](https://github.com/fejzadenis/inrooms)** | A networking platform for tech sales professionals: events, subscriptions and payments, AI-assisted features. | React, TypeScript, Supabase, Stripe |
-| **[asp](https://github.com/fejzadenis/asp)** | A tree-based question-and-answer knowledge structure, built on custom data structures. | C++ |
+| **[Text-to-SQL thesis](https://github.com/fejzadenis/natural-language-to-sql-query-generation-using-large-language-models)** | Natural language to SQL with LLMs, with result explanation and confidence-based abstention: the system declines instead of returning a wrong query. | Python, LLMs, SQL |
+| **[riscv-bare-metal-kernel](https://github.com/fejzadenis/riscv-bare-metal-kernel)** | Multithreaded OS kernel from scratch for RISC-V: threads, semaphores, a memory allocator and the user/supervisor boundary. No standard library. | C++, RISC-V assembly |
+| **[mikrojava-compiler](https://github.com/fejzadenis/mikrojava-compiler)** | Full compiler for a Java-like language: lexer, LALR(1) parser, semantic analysis and bytecode generation. | Java, JFlex, CUP |
+| **[inrooms](https://github.com/fejzadenis/inrooms)** | Networking platform for tech sales professionals: events, messaging, Stripe subscriptions, LinkedIn OAuth. | React, TypeScript, Supabase, Stripe |
+| **[vlsi](https://github.com/fejzadenis/vlsi)** | PicoComputer CPU in SystemVerilog: RTL design, UVM verification, FPGA-ready synthesis. | SystemVerilog, UVM |
 
 ## Tech
 
-**Languages** — C++, Java, TypeScript, Dart, Python, Rust, SystemVerilog
+**Backend:** Node.js, TypeScript, Rust, Python, PostgreSQL, Redis, REST APIs
 
-**Systems** — RISC-V, bare-metal programming, compilers and language tooling, RTL design
+**AI:** LLM agents and tool calling, voice AI, Text-to-SQL
 
-**Product** — React, Flutter, Node, Tailwind, Supabase, Firebase, Stripe
+**Web3:** Solana, Jupiter, Raydium, Meteora, Hyperliquid
 
-**Tools** — Git, Linux, QEMU, GDB, Vite, Ant
+**Frontend:** Next.js, React, SvelteKit, Tailwind
 
-## Contact
+**Infra and tools:** Docker, Linux, Git, Cloudflare Workers, Vercel
 
-[LinkedIn](https://www.linkedin.com/in/denis-fejza-15823529a/) · [fejzadenis.github.io](https://fejzadenis.github.io)
+**Systems:** C, C++, RISC-V, compilers, SystemVerilog
