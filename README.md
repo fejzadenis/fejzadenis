@@ -4,8 +4,8 @@ Backend engineer in Belgrade. Node.js, TypeScript, Rust, Python, PostgreSQL.
 
 3+ years of production work for EU and US clients: APIs and services, PostgreSQL data models, authentication and access control, Stripe billing, real-time data pipelines.
 
-- **Now:** Full-Stack Engineer (contract) at Macks Studios, and part-time on [gradi.rs](https://gradi.rs), a Serbian construction marketplace
-- **Before:** Rust backend engineer (full-time) at FUKU AI, an AI trading platform where an LLM agent executes DeFi trades; Upwork freelancer with Top Rated Plus and 100% Job Success
+- **Now:** Full-Stack Engineer on [gradi.rs](https://gradi.rs), a Serbian construction marketplace
+- **Before:** Full-Stack Engineer at Macks Studios (took a paid membership platform to production, billing, Meta Ads and GA4 tracking); Rust backend engineer at FUKU AI, an AI trading platform where an LLM agent executes DeFi trades; Upwork freelancer with Top Rated Plus and 100% Job Success
 - **Education:** M.Sc. in Software Engineering (in progress) and B.Sc. in Electrical Engineering and Computing (2026), University of Belgrade, School of Electrical Engineering
 
 **[fejzadenis.github.io](https://fejzadenis.github.io)** · [LinkedIn](https://www.linkedin.com/in/denis-fejza/) · fejza.denis@gmail.com · looking for a full-time backend or full-stack role, remote or Belgrade
@@ -16,7 +16,7 @@ Backend engineer in Belgrade. Node.js, TypeScript, Rust, Python, PostgreSQL.
 | --- | --- | --- |
 | **FUKU** | Rust monorepo with about 22 services in production. Sole author of the real-time signal service (Redis stream of Hyperliquid perps activity, risk classification, Telegram fan-out, indicator packs) and of the Agent Commerce Protocol adapter that lets other AI agents buy trade execution. Worked on the agent tool layer exposing 113 trading functions to the LLM. | Rust, PostgreSQL, Redis, Solana, Hyperliquid |
 | **[DoorCall AI](https://doorcall-ai.vercel.app)** | Multi-tenant voice-AI receptionist SaaS for US garage-door companies, built solo. Tenant isolation with PostgreSQL row level security, calendar booking, idempotent Stripe webhooks. Live demo, no accounts needed. | Next.js, TypeScript, PostgreSQL, Supabase, Stripe |
-| **Client platforms** | Security audit and repairs of a live SvelteKit membership platform on Cloudflare (access control, admin roles, gated video, email deliverability). Query and caching work that cut page loads by about 40% on gradi.rs. | SvelteKit, Cloudflare Workers, Stripe, PHP, SQL |
+| **Client platforms** | Took a SvelteKit membership platform on Cloudflare to production for about 640 paying members: durable WooCommerce webhooks, access control, tracking with GTM, Meta Pixel and Ads, GA4 and HYROS, and an analytics dashboard. Query and caching work that cut page loads by about 40% on gradi.rs. | SvelteKit, Cloudflare Workers, D1, WooCommerce, Meta Ads, GA4, PHP |
 
 ## Public code
 
@@ -39,5 +39,7 @@ Backend engineer in Belgrade. Node.js, TypeScript, Rust, Python, PostgreSQL.
 **Frontend:** Next.js, React, SvelteKit, Tailwind
 
 **Infra and tools:** Docker, Linux, Git, CI/CD, Cloudflare Workers, Vercel, HashiCorp Vault
+
+**Analytics and marketing:** Meta Pixel and Ads API, GA4, Google Tag Manager, HYROS, ActiveCampaign
 
 **Systems:** C, C++, RISC-V, compilers, SystemVerilog
