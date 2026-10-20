@@ -4,8 +4,8 @@ Backend engineer in Belgrade. Node.js, TypeScript, Rust, Python, PostgreSQL.
 
 3+ years of production work for EU and US clients: APIs and services, PostgreSQL data models, authentication and access control, Stripe billing, real-time data pipelines.
 
-- **Now:** Full-Stack Engineer on [gradi.rs](https://gradi.rs), a Serbian construction marketplace
-- **Before:** Full-Stack Engineer at Macks Studios (took a paid membership platform to production, billing, Meta Ads and GA4 tracking); Rust backend engineer at FUKU AI, an AI trading platform where an LLM agent executes DeFi trades; Upwork freelancer with Top Rated Plus and 100% Job Success
+- **Now:** Open to full-time backend and full-stack roles, remote or Belgrade
+- **Before:** Full-Stack Engineer at Macks Studios (took a paid membership platform to production, billing, Meta Ads and GA4 tracking); Full-Stack Engineer on [gradi.rs](https://gradi.rs), a Serbian construction marketplace; Rust backend engineer at FUKU AI, an AI trading platform where an LLM agent executes DeFi trades; Upwork freelancer with Top Rated Plus and 100% Job Success
 - **Education:** M.Sc. in Software Engineering (in progress) and B.Sc. in Electrical Engineering and Computing (2026), University of Belgrade, School of Electrical Engineering
 
 **[fejzadenis.github.io](https://fejzadenis.github.io)** · [LinkedIn](https://www.linkedin.com/in/denis-fejza/) · fejza.denis@gmail.com · looking for a full-time backend or full-stack role, remote or Belgrade
