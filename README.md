@@ -10,6 +10,10 @@ Backend engineer in Belgrade. Node.js, TypeScript, Rust, Python, PostgreSQL.
 
 **[fejzadenis.github.io](https://fejzadenis.github.io)** · [LinkedIn](https://www.linkedin.com/in/denis-fejza/) · fejza.denis@gmail.com · looking for a full-time backend or full-stack role, remote or Belgrade
 
+## Tools I ship
+
+**[LeadFlow Studio](https://fejzadenis.github.io/leadflow/studio.html)** - a lead export that arrives as `DÃ©cision` or `?or?e` was decoded twice or read as Windows-1252. Drop the whole CSV in the browser tab: no upload, no account, it hands back the cleaned file, the candidate email patterns and a written reason for every rejected row. Three free n8n workflows (dedupe, CSV clean, email patterns) live in [leadflow](https://github.com/fejzadenis/leadflow).
+
 ## Production work (private code)
 
 | Project | What I built | Stack |
