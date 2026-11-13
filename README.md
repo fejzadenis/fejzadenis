@@ -10,12 +10,6 @@ Backend engineer in Belgrade. Node.js, TypeScript, Rust, Python, PostgreSQL.
 
 **[fejzadenis.github.io](https://fejzadenis.github.io)** · [LinkedIn](https://www.linkedin.com/in/denis-fejza/) · fejza.denis@gmail.com · looking for a full-time backend or full-stack role, remote or Belgrade
 
-## Tools I ship
-
-**[LeadFlow Studio](https://fejzadenis.github.io/leadflow/studio.html)** - a lead export that arrives as `Décision` or `?or?e` was decoded twice or read as Windows-1252. Drop the whole CSV in the browser tab: no upload, no account, it hands back the cleaned file, the candidate email patterns and a written reason for every rejected row. Three free n8n workflows (dedupe, CSV clean, email patterns) live in [leadflow](https://github.com/fejzadenis/leadflow).
-
-If the file still will not import after that cleaner - a merged column, two header rows, an export your import keeps rejecting even after cleaning - I fix it by hand: **$49** for up to 5,000 rows, $79 to 25,000, $99 to 100,000. The cleaned file plus a report naming every row dropped and every address rewritten, back within 24 hours, 14-day refund. [What the repair includes, and what the receipt says](https://fejzadenis.github.io/leadflow/studio.html#cta).
-
 ## Production work (private code)
 
 | Project | What I built | Stack |
